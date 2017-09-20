@@ -1,0 +1,28 @@
+{
+  "name": "evaqaidapi",
+  "version": "1.0.0",
+  "description": "Evaqaid API for sensor devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/V-Ho/sensor-api.git"
+  },
+  "author": "vanessa ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-Ho/sensor-api/issues"
+  },
+  "homepage": "https://github.com/V-Ho/sensor-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
